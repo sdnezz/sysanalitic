@@ -1,11 +1,10 @@
 #include <iostream>
 
-//Greeting user
+// Greeting user
 int main() {
-	//CONFLICT!!!
-	std::string name;
-	std::cout << "Enter your name: ";
-	std::cout << name;
-	std::cout << "Hello World from" << name "!" << endl;
-	return 0;
+  std::string name;
+  std::cout << "Enter your name: ";
+  std::cout << name;
+  std::cout << "Hello World from" << name "!" << endl;
+  return 0;
 }
